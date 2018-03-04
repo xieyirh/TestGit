@@ -31,6 +31,7 @@ namespace TestGit
         private void Job_Click(object sender, RoutedEventArgs e)
         {
             MessageDialog msg = new MessageDialog("Hello Github");
+            MessageDialog msg2 = new MessageDialog("Test modification");
             msg.ShowAsync();
         }
     }
