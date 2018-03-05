@@ -33,6 +33,8 @@ namespace TestGit
             MessageDialog msg = new MessageDialog("Hello Github");
             MessageDialog msg2 = new MessageDialog("Test modification");
             MessageDialog msg3 = new MessageDialog("Test commit modification");
+            MessageDialog msg3 = new MessageDialog("Test commit again.");
+
             msg.ShowAsync();
         }
     }
